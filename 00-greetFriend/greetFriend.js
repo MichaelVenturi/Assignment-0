@@ -1,6 +1,6 @@
 function greetFriend(name) {
   // Insert code here;
-  greeting = `Hello, ${name}!`;
+  let greeting = `Hello, ${name}!`;
   return greeting;
 }
 

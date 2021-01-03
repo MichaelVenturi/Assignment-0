@@ -1,8 +1,8 @@
 function sumOfMinimumAndMaximum(nums) {
   // Insert code here;
-  min = nums[0];
-  max = nums[0];
-  for (i = 1; i < nums.length; i++) {
+  let min = nums[0];
+  let max = nums[0];
+  for (let i = 1; i < nums.length; i++) {
     if (nums[i] < min) {
       min = nums[i];
     }
